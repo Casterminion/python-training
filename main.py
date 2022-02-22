@@ -9,5 +9,6 @@ print('Write down two numbers that you would like to sum ')
 a = int(input('Type first number = '))
 b = int(input('Type second number = '))
 def sum(a, b):
-	print(f'{a} + {b} = {a + b}')
+	print(f'{a} + {b} = {a + b }')
 sum( a , b)
+print('-'*20)

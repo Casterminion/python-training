@@ -23,8 +23,8 @@ def info(self):
 
 
 
-#new object
 my_pc = Computer('potato', 'Peciulis', '69GB')
+#new object
 
 #using function in calss
 my_pc.info()

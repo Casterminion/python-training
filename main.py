@@ -1,4 +1,4 @@
-
+'''
 name = input("Write your name: ")
 age = input("What's your age? ")
 print(f'Hello, {name}')
@@ -65,3 +65,60 @@ if b1 > 1 or b2 > 5:
 # name -str
 #autorius -str
 #Rented - bool
+
+#-----------------------------------------------
+
+
+#While loop
+i = 0
+
+while i < 10:
+	print(i)
+	i +=1 # i = i +1     
+#Kol yra teisinga tol suksis kodas, kai false baigsis loop      
+
+
+#For loop
+
+grades = [10 , 8 , 7,  5 , 10] 
+
+sum = 0 
+sum += grade
+for grade in grades:
+	print(grade)
+
+print(sum)
+
+#For loop with range
+
+for i in range (1, 3):
+	print(i)
+'''
+'''
+#custom step
+for i in range(1 , 10, 2):
+	print(i)
+
+#Reverse
+for i in range (10, 0, -1):
+	print(i)
+
+#list
+
+list = [10 , 8 , 7,  5 , 10] 
+list = ['lemp', 'stalas', 'zuvis']
+
+for element in list:
+	print(element)
+
+print(list[0])
+
+obj = {
+	'name': 'Titas',
+	'Age': 20
+	'friends': ['none', None, 2]
+}
+print(obj['friends'])
+
+'''
+

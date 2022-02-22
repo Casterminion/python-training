@@ -10,4 +10,4 @@ a = int(input('Type first number = '))
 b = int(input('Type second number = '))
 def sum(a, b):
 	print(f'{a} + {b} = {a + b}')
-sum(a , b)
+sum( a , b)
